@@ -1,0 +1,156 @@
+body ,html
+{
+ margin :0px;
+ padding: 0px;  
+ background-color:#8c7cf6; 
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.container
+{
+    border: none;
+    height: 540px;
+    width: 800px;
+    background-color: white;
+    margin-top: 100px;
+    border-radius: 5px;
+    
+}
+.show
+{
+    background-color: #eef9ed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#search
+{
+    border: none;
+    height: 40px;
+    margin-right: 10px;
+    margin-top: 20px;
+    width: 415px;
+}
+#name
+{
+    border: none;
+    height: 60px;
+    margin-left: 80px;
+    margin-top: 10px;
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    h3{
+        position: relative;
+        
+    }
+}
+.belowshow
+{
+    border:none;
+    height: 477px;
+    display: flex;
+}
+.sidebar
+{
+    border: none;
+    height: 100%;
+    width: 30%;
+    background-color:#685fba;
+    border-radius: 4px;
+}
+.besidesidebar
+{ 
+    border: none;
+    height: 100%;
+    width: 70%;
+    background-color: #eef9ed;
+    display: flex;
+    justify-content: center;
+}
+#insideside
+{
+    margin-top: 10px;
+    width: 800px;
+    border: none;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.323);
+    border-top: 1px solid rgba(0, 0, 0, 0.323);
+}
+#list
+{
+    border: none;
+    width: 90%;
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    color: #272926;
+}
+.inner1
+{
+    border: none;
+    height: 120px;
+    width: 235px;
+}
+#inner1
+{
+    border: none;
+    display: flex;
+    height: 45px;
+    margin-left: 5px;
+}
+#inner2
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    height: 75px;
+    input{
+        height: 35px;
+            
+    }
+    button
+    {
+        width: 80px;
+        height: 30px;
+        margin-top: 5px;
+    }
+}
+.inner3
+{
+    overflow-x: hidden;
+    img{
+        position: relative;
+        right: -20px;
+        height: 180px;
+        width: 185px;
+        margin: 10px;
+        border-radius: 50px 10px 150px 100px;
+        
+    }
+}
+.inner2
+{
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.listing
+{
+    width: 100%;
+    height: 10%;
+}
